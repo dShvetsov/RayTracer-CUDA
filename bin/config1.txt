@@ -1,0 +1,14 @@
+1024 512
+camera
+2000000 0 70000
+-2000000 0 -70000
+-70000 0 2000000
+0 -1 0
+1.24 1.57
+background
+data\stars.jpg
+blackhole
+2e32
+disk
+5
+data\disk_32.png

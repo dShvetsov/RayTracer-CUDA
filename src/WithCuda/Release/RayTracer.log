@@ -1,0 +1,66 @@
+﻿Построение начато 12.12.2015 18:17:24.
+     1>Проект "C:\Users\Денис\Documents\RayTracer\src\WithCuda\RayTracer.vcxproj" в узле 2 (целевые объекты build).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: каталог Output заканчивается не косой чертой.  Этот экземпляр построения добавит косую черту, поскольку она необходима для правильного определения каталога Output.
+     1>InitializeBuildStatus:
+         Создание "Release\RayTracer.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       AddCudaCompileDeps:
+       Целевой объект "AddCudaCompileDeps" пропускается, так как все выходные файлы актуальны по отношению к входным.
+       CudaBuild:
+       Целевой объект "CudaBuild" пропускается, так как все выходные файлы актуальны по отношению к входным.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\glm /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /openmp- /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp Scene.cpp
+         Main.cpp
+     1>Main.cpp(19): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234): см. объявление "fopen"
+     1>Main.cpp(23): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234): см. объявление "fopen"
+     1>Main.cpp(29): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253): см. объявление "fscanf"
+     1>Main.cpp(36): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253): см. объявление "fscanf"
+     1>Main.cpp(39): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253): см. объявление "fscanf"
+     1>Main.cpp(44): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253): см. объявление "fscanf"
+     1>Main.cpp(49): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253): см. объявление "fscanf"
+     1>Main.cpp(54): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253): см. объявление "fscanf"
+     1>Main.cpp(59): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253): см. объявление "fscanf"
+     1>Main.cpp(65): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253): см. объявление "fscanf"
+     1>Main.cpp(71): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253): см. объявление "fscanf"
+     1>Main.cpp(73): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>Main.cpp(74): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>Main.cpp(79): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253): см. объявление "fscanf"
+     1>Main.cpp(81): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+         Scene.cpp
+     1>Scene.cpp(14): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+     1>Scene.cpp(23): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\glm /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Tracer.cpp
+         Tracer.cpp
+     1>Tracer.cpp(219): warning C4244: =: преобразование "float" в "unsigned char", возможна потеря данных
+     1>Tracer.cpp(220): warning C4244: =: преобразование "float" в "unsigned char", возможна потеря данных
+     1>Tracer.cpp(221): warning C4244: =: преобразование "float" в "unsigned char", возможна потеря данных
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\WithCuda.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:\lib\Win32 /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\lib\Win32" /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\lib\Win32" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\WithCuda.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Денис\Documents\RayTracer\bin\WithCuda.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\bin\WithCuda.lib" /MACHINE:X86 Release\ParallelTracer.cu.obj
+         Release\Main.obj
+         Release\Scene.obj
+         Release\Tracer.obj
+         Создание кода
+         Создание кода завершено
+     1>ParallelTracer.cu.obj : warning LNK4099: "vc100.pdb" PDB не найден с "ParallelTracer.cu.obj" или на "C:\Users\Денис\Documents\RayTracer\bin\vc100.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+         RayTracer.vcxproj -> C:\Users\Денис\Documents\RayTracer\src\WithCuda\..\..\bin\WithCuda.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\..\bin\WithCuda.exe;#1" /manifest Release\WithCuda.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Файл "Release\RayTracer.unsuccessfulbuild" удаляется.
+         Обращение к "Release\RayTracer.lastbuildstate".
+     1>Построение проекта "C:\Users\Денис\Documents\RayTracer\src\WithCuda\RayTracer.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:06.36

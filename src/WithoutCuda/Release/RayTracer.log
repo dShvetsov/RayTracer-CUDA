@@ -1,0 +1,89 @@
+﻿Построение начато 12.12.2015 18:18:47.
+     1>Проект "C:\Users\Денис\Documents\RayTracer\src\WithoutCuda\RayTracer.vcxproj" в узле 2 (целевые объекты build).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: каталог Output заканчивается не косой чертой.  Этот экземпляр построения добавит косую черту, поскольку она необходима для правильного определения каталога Output.
+     1>InitializeBuildStatus:
+         Создание "Release\RayTracer.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\glm /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp Scene.cpp
+         Main.cpp
+     1>c:\users\денис\documents\raytracer\src\withoutcuda\Scene.h(65): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+     1>c:\users\денис\documents\raytracer\src\withoutcuda\Scene.h(125): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+     1>c:\users\денис\documents\raytracer\src\withoutcuda\Scene.h(125): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+     1>c:\users\денис\documents\raytracer\src\withoutcuda\Scene.h(144): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>c:\users\денис\documents\raytracer\src\withoutcuda\Scene.h(145): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>c:\users\денис\documents\raytracer\src\withoutcuda\Scene.h(146): warning C4101: a: неиспользованная локальная переменная
+     1>c:\users\денис\documents\raytracer\src\withoutcuda\Scene.h(146): warning C4101: b: неиспользованная локальная переменная
+     1>c:\users\денис\documents\raytracer\src\withoutcuda\Scene.h(146): warning C4101: g: неиспользованная локальная переменная
+     1>c:\users\денис\documents\raytracer\src\withoutcuda\Scene.h(146): warning C4101: r: неиспользованная локальная переменная
+     1>Main.cpp(21): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234): см. объявление "fopen"
+     1>Main.cpp(25): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234): см. объявление "fopen"
+     1>Main.cpp(31): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253): см. объявление "fscanf"
+     1>Main.cpp(38): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253): см. объявление "fscanf"
+     1>Main.cpp(41): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253): см. объявление "fscanf"
+     1>Main.cpp(46): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253): см. объявление "fscanf"
+     1>Main.cpp(51): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253): см. объявление "fscanf"
+     1>Main.cpp(56): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253): см. объявление "fscanf"
+     1>Main.cpp(61): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253): см. объявление "fscanf"
+     1>Main.cpp(67): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253): см. объявление "fscanf"
+     1>Main.cpp(73): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253): см. объявление "fscanf"
+     1>Main.cpp(80): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253): см. объявление "fscanf"
+     1>Main.cpp(89): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253): см. объявление "fscanf"
+         Scene.cpp
+     1>c:\users\денис\documents\raytracer\src\withoutcuda\Scene.h(65): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+     1>c:\users\денис\documents\raytracer\src\withoutcuda\Scene.h(125): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+     1>c:\users\денис\documents\raytracer\src\withoutcuda\Scene.h(125): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+     1>c:\users\денис\documents\raytracer\src\withoutcuda\Scene.h(144): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>c:\users\денис\documents\raytracer\src\withoutcuda\Scene.h(145): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>c:\users\денис\documents\raytracer\src\withoutcuda\Scene.h(146): warning C4101: a: неиспользованная локальная переменная
+     1>c:\users\денис\documents\raytracer\src\withoutcuda\Scene.h(146): warning C4101: b: неиспользованная локальная переменная
+     1>c:\users\денис\documents\raytracer\src\withoutcuda\Scene.h(146): warning C4101: g: неиспользованная локальная переменная
+     1>c:\users\денис\documents\raytracer\src\withoutcuda\Scene.h(146): warning C4101: r: неиспользованная локальная переменная
+     1>Scene.cpp(14): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+     1>Scene.cpp(23): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\glm /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Tracer.cpp
+         Tracer.cpp
+     1>c:\users\денис\documents\raytracer\src\withoutcuda\Scene.h(65): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+     1>c:\users\денис\documents\raytracer\src\withoutcuda\Scene.h(125): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+     1>c:\users\денис\documents\raytracer\src\withoutcuda\Scene.h(125): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+     1>c:\users\денис\documents\raytracer\src\withoutcuda\Scene.h(144): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>c:\users\денис\documents\raytracer\src\withoutcuda\Scene.h(145): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>c:\users\денис\documents\raytracer\src\withoutcuda\Scene.h(146): warning C4101: a: неиспользованная локальная переменная
+     1>c:\users\денис\documents\raytracer\src\withoutcuda\Scene.h(146): warning C4101: b: неиспользованная локальная переменная
+     1>c:\users\денис\documents\raytracer\src\withoutcuda\Scene.h(146): warning C4101: g: неиспользованная локальная переменная
+     1>c:\users\денис\documents\raytracer\src\withoutcuda\Scene.h(146): warning C4101: r: неиспользованная локальная переменная
+     1>Tracer.cpp(161): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+     1>Tracer.cpp(168): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>Tracer.cpp(169): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>Tracer.cpp(286): warning C4244: =: преобразование "float" в "unsigned char", возможна потеря данных
+     1>Tracer.cpp(287): warning C4244: =: преобразование "float" в "unsigned char", возможна потеря данных
+     1>Tracer.cpp(288): warning C4244: =: преобразование "float" в "unsigned char", возможна потеря данных
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\WithoutCuda.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\WithoutCuda.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Денис\Documents\RayTracer\bin\WithoutCuda.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\bin\WithoutCuda.lib" /MACHINE:X86 Release\Main.obj
+         Release\Scene.obj
+         Release\Tracer.obj
+         Создание кода
+         Создание кода завершено
+         RayTracer.vcxproj -> C:\Users\Денис\Documents\RayTracer\src\WithoutCuda\..\..\bin\WithoutCuda.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\..\bin\WithoutCuda.exe;#1" /manifest Release\WithoutCuda.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Файл "Release\RayTracer.unsuccessfulbuild" удаляется.
+         Обращение к "Release\RayTracer.lastbuildstate".
+     1>Построение проекта "C:\Users\Денис\Documents\RayTracer\src\WithoutCuda\RayTracer.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:06.56
